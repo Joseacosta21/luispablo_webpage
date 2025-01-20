@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  padding: 10px;
+
+  z-index: 1000; /* Ensures the nav stays on top of other elements */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 8vh;
+  color: black;
+}
+
+nav a {
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: black;
+}
+
+footer p {
+  margin: 0;
+}
