@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-center">
       <p>Mi correo es:</p>
-      <a href="mailto:luispablocorreo@gmail.com" className="my-2">luispablocorreo@gmail.com</a>
+      <a href="mailto:luispablocorreo@gmail.com" className="my-2">
+        luispablocorreo@gmail.com
+      </a>
       <ReactSocialMediaIcons
         url="https://www.instagram.com/pablo_drette_art"
         backgroundColor="rgba(255,255,255,0)"
